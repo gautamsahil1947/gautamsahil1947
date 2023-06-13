@@ -1,10 +1,19 @@
-#include <iostream>
 #include <SFML/Graphics.hpp>
+#include <iostream>
 
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(90, 90), "My Window");
+    sf::RenderWindow window(sf::VideoMode(700, 700), "Moving Shape");
+    window.setVerticalSyncEnabled(true);
+    window.setFramerateLimit(60);
+
+    // drawing the shape
+    sf::CircleShape circle(50.f);
+    circle.setFillColor(sf::Color::Green);
+
+
+    float circleMoveSpeed = 1.f;
 
     while (window.isOpen())
     {
@@ -13,16 +22,16 @@ int main()
         {
             if (event.type == sf::Event::Closed)
             {
-                std::cout << "Closing the window" << std::endl;
                 window.close();
             }
-
-            window.clear(sf::Color::Black);
-            sf::CircleShape shape(10.0f);
-            shape.setFillColor(sf::Color::Green);
-            // this is the drawing ground
-            window.draw(shape);
-            window.display();
         }
+
+        circle.setPosition(circle.getPosition().x + circleMoveSpeed, circle.getPosition().y + circleMoveSpeed);
+
+        window.clear();
+        window.draw(circle);
+        window.display();
+
     }
+    return 0;
 }
