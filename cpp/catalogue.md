@@ -4,14 +4,12 @@
 - [x] Lecture 02 - Intro to C++ (1⧸2) [P_mgIDWpbms].webm
 
 ```cpp
-// 2023-06-12
-14:58 -> doing lecture 3 >>>>
--> primeagen vim first tutorial >>>>
-19:27 -> lecture 4 game programming >>>>
--> sleeping >>>>
+09:26 -> SFML documentation reading   >>>>
+-> the primeagen vim playlist vid 1   >>>>
+-> SFML cpp lecture 04   >>>>
 ```
 
-- [ ] Lecture 03 - Intro to C++ (2⧸2) [aZFXWVqgGBI].webm
+- [x] Lecture 03 - Intro to C++ (2⧸2) [aZFXWVqgGBI].webm
 - [ ] Lecture 04 - Assignment 1 + SFML [UARdwTLUH5U].webm
 - [ ] Lecture 05 - Intro to ECS [9LNgSDP1zrw].webm
 - [ ] Lecture 06 - EntityManager + 2D Game Math [pTWss1lY6rg].webm
@@ -31,3 +29,16 @@
 - [ ] Lecture 20 - C++ Visual Code Profiling [l6ApqETKAn0].webm
 - [ ] Lecture 21 - Introduction to Shaders [n7ggDwe7QWw].webm
 - [ ] Lecture 22 - Particle Systems and Vertex Arrays [A0-UOZ2v4V8].webm
+
+#### these holidays
+
+- [ ] cpp sfml course
+- [ ] cpp cherno full playlist
+- [ ] missing semester
+- [ ] cs50ai
+- [ ] the primeagen vim playlist
+- [ ] docker and devops (playlist)
+- [ ] fullstack webapplication developement (vanilla htmlcssjs)
+- [ ] typescript
+- [ ] frameworks for fullstack developement (mernstack)
+- [ ] linux and bash scripting ofcourse

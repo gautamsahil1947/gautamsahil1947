@@ -848,15 +848,144 @@ int main(void)
 ```
 
 ```cpp
+indow/Keyboard.hpp>
+#include <iostream>
+#include <SFML/Window.hpp>
+#include <SFML/Graphics.hpp>
 
+int main()
+{
+    sf::Window window(sf::VideoMode::getDesktopMode(), "My window", sf::Style::Default);
+    window.setVerticalSyncEnabled(true);
+
+    while (window.isOpen())
+    {
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+             switch (event.type)
+             {
+                case sf::Event::Closed:
+                    window.close();
+            //     // case sf::Event::KeyPressed:
+            //     //     std::cout << "Hello, world, key KeyPressed" << std::endl;
+            //     // case sf::Event::Resized:
+            //     //     std::cout << "new width: " << event.size.width << std::endl;
+            //     //     std::cout << "new height: " << event.size.height << std::endl;
+            //     case sf::Event::LostFocus:
+            //         std::cout << "Lost focus" << std::endl;
+            //     case sf::Event::GainedFocus:
+            //         std::cout << "Gained Focus" << std::endl;
+            //     // default:
+            //     //     std::cout << "default of switch" << std::endl;
+            //
+            //
+             }
+
+            if (event.type == sf::Event::KeyPressed)
+            {
+                if (event.key.code == sf::Keyboard::A)
+                {
+                    std::cout << event.key.code << std::endl;
+                }
+
+                if (event.key.code == sf::Keyboard::B)
+                {
+                    std::cout << "Pressed B";
+                }
+
+                if (event.key.code == sf::Keyboard::Enter)
+                {
+                    std::cout << "Pressed Enter";
+                }
+            }
+        }
+    }
+}
+
+// g++ cpp.cpp -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
 ```
 
 ```cpp
 
+#include <iostream>
+#include <SFML/Graphics.hpp>
+
+
+int main ()
+{
+    sf::RenderWindow window(sf::VideoMode(900, 900), "My Window");
+
+    while (window.isOpen())
+    {
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
+
+        // clears contents from the previous frames
+        window.clear(sf::Color::Black);
+
+        // then here you draw somethings or the others
+        // these are drawn to a hidden buffer, as SFML implements double buffering
+
+        // this one displays the hidden buffer contents to the main window
+        window.display();
+
+        // so it is like
+        // clear ---> draw to hidden buffer ---> display ---> clear --> draw --> display  (not sure about it, need to experiment)
+    }
+}
 ```
 
 ```cpp
+// draws hello world to the newly created window
+#include <iostream>
+#include <SFML/Graphics.hpp>
 
+
+int main ()
+{
+    sf::RenderWindow window(sf::VideoMode(900, 900), "My Window");
+
+    while (window.isOpen())
+    {
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+                window.close();
+        }
+
+        // set a varaible of the font class
+        sf::Font font;
+        // load the font from a file, and if incase not loaded, do something
+        if (!font.loadFromFile("AgaveNerdFont-Regular.ttf"))
+        {
+            std::cout << "Not able to load font" << std::endl;
+        }
+
+        // create an instance of text class
+        sf::Text text;
+        // set the font for that instance
+        text.setFont(font);
+        // give in string
+        text.setString("Hello, world");
+        // set character size
+        text.setCharacterSize(55);
+        // set fill color
+        text.setFillColor(sf::Color::Red);
+
+        // clear the window
+        window.clear(sf::Color::Black);
+        // draw the text
+        window.draw(text);
+        // display the text
+        window.display();
+    }
+}
 ```
 
 ```cpp

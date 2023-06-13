@@ -1,23 +1,28 @@
 #include <iostream>
-#include <SFML/Window.hpp>
+#include <SFML/Graphics.hpp>
 
 
-int main () 
+int main()
 {
-        sf::Window window(sf::VideoMode(900, 900), "My Window", sf::Style::Default);
+    sf::RenderWindow window(sf::VideoMode(90, 90), "My Window");
 
-        // run the program as long as the window is open
-        while (window.isOpen())
+    while (window.isOpen())
+    {
+        sf::Event event;
+        while (window.pollEvent(event))
         {
-                // check all the window's events that were triggered since the last iteration of the loop
-                sf::Event event;
-                while (window.pollEvent(event))
-                {
-                        // close requested event : we close the window
-                        if (event.type == sf::Event::Closed)
-                                window.close();
-                }
+            if (event.type == sf::Event::Closed)
+            {
+                std::cout << "Closing the window" << std::endl;
+                window.close();
+            }
+
+            window.clear(sf::Color::Black);
+            sf::CircleShape shape(10.0f);
+            shape.setFillColor(sf::Color::Green);
+            // this is the drawing ground
+            window.draw(shape);
+            window.display();
         }
-        return 0;
+    }
 }
-// g++ cpp.cpp -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio
