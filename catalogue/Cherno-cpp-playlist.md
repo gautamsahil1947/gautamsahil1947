@@ -1,6 +1,4 @@
-- [ ] [Welcome to C++](https://www.youtube.com/watch?v=18c3MTX0PK0)
-- [ ] [How to Setup C++ on Windows](https://www.youtube.com/watch?v=1OsGXuNA5cc)
-- [ ] [How to Setup C++ on Mac](https://www.youtube.com/watch?v=1E_kBSka_ec)
+- [x] [Welcome to C++](https://www.youtube.com/watch?v=18c3MTX0PK0)
 - [ ] [How to Setup C++ on Linux](https://www.youtube.com/watch?v=LKLuvoY6U0I)
 - [ ] [How C++ Works](https://www.youtube.com/watch?v=SfGuIVzE_Os)
 - [ ] [How the C++ Compiler Works](https://www.youtube.com/watch?v=3tIqpEmWMLI)
