@@ -1018,11 +1018,102 @@ int main()
 ```
 
 ```cpp
+// creates a circle and makes it move
+#include <SFML/Graphics.hpp>
+#include <iostream>
 
+
+int main()
+{
+    sf::RenderWindow window(sf::VideoMode(1000, 800), "The Game Window");
+    // if the circle is created inside the loop, then it will never move.
+    sf::CircleShape circle(15.f);
+
+    while (window.isOpen())
+    {
+
+
+
+
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+            {
+                std::cout << "Closing The Window" << std::endl;
+                window.close();
+            }
+        }
+
+        float xVelocity = 0.1f;
+        float yVelocity = 0.2f;
+
+
+        circle.setPosition(circle.getPosition().x + xVelocity, circle.getPosition().y + yVelocity);
+
+        window.clear();
+        window.draw(circle);
+        window.display();
+
+
+    }
+}
 ```
 
 ```cpp
 
+#include <SFML/Graphics.hpp>
+#include <iostream>
+
+
+int main()
+{
+    sf::RenderWindow window(sf::VideoMode(1000, 800), "The Game Window");
+    size_t rad = 13;
+    // if this is inside the while loop, each time new object is created, and therefore no changes are visible
+    sf::CircleShape circle(rad);
+
+    // if these were inside the while loop, then the loop would set them to the default
+    // values with each run, and therefore you don't get the desired results
+    float xVelocity = 0.4f;
+    float yVelocity = 0.2f;
+
+    while (window.isOpen())
+    {
+        sf::Event event;
+        while (window.pollEvent(event))
+        {
+            if (event.type == sf::Event::Closed)
+            {
+                std::cout << "Closing The Window" << std::endl;
+                window.close();
+            }
+        }
+
+
+        circle.setPosition(circle.getPosition().x + xVelocity, circle.getPosition().y + yVelocity);
+
+
+        if (circle.getPosition().x + (2 * rad) >= 1000 || circle.getPosition().x <= 0)
+        {
+            circle.setFillColor(sf::Color::Yellow);
+            xVelocity *= -1;
+        }
+
+        if (circle.getPosition().y + (2 * rad) >= 800 || circle.getPosition().y <= 0)
+        {
+            circle.setFillColor(sf::Color::Red);
+            yVelocity *= -1;
+        }
+
+
+        window.clear();
+        window.draw(circle);
+        window.display();
+
+
+    }
+}
 ```
 
 ```cpp
