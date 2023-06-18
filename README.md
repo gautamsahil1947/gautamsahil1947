@@ -12,6 +12,8 @@
 
 #### SFML-GameDevelopement-using-Modern-C++
 
+Modern C++ and SFML
+
 <!-- - [Project 1]() -->
 
 - [Project 2 (shape-shooter)](https://github.com/gautamsahil1947/shape-shooter)
