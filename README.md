@@ -1,5 +1,7 @@
 ### Summer Vacation (June - July) 2023
 
+Trying different things out
+
   <!-- - []() -->
   <!-- - [Computer Networkng]() -->
 <!-- - [CS50's Introduction to Artificial Intelligence using Python]() -->
