@@ -1,5 +1,0 @@
-- [ ] work on this game till 12:00
-- [ ] missing semester 16:30
-- [ ] cherno cpp till the end
-- [ ]
-- [ ]
