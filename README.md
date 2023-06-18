@@ -1,6 +1,6 @@
----
-
 #### Summer Vacation (June - July) 2023
+
+- [Python Script to Get Video Tiles from a YouTube Playlist](./Misc/youtubeScript.py)
 
 ##### SFML-GameDevelopement-using-Modern-C++
 
@@ -10,12 +10,15 @@
   <!-- - []() -->
   <!-- - []() -->
   <!-- - []() -->
-- [Python Script to Get Video Tiles from a YouTube Playlist](./Misc/youtubeScript.py)
+
+---
 
 #### April 2023
 
-- [Ice-Cream Parlour Management System](https://github.com/gautamsahil1947/ipl)
+- [Ice-Cream Parlour Management System](https://github.com/gautamsahil1947/icecream-parlour-management-system)
 - [IPL Schedule Maker](https://github.com/gautamsahil1947/icecream-parlour-management-system)
+
+---
 
 #### March 2023
 
