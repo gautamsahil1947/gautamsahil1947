@@ -400,12 +400,44 @@ be related to each other. this way it becomes a modular design.
 one entity can atmost have one attachment of one component.
 
 ```cpp
-
+// movement system
+for (e : entities) {e.pos += e.speed;}
+// collision system
+for (b : bullets) {
+    for (e : enemies) {
+        if (Physics:IsCollision(b, e)) {
+            e.heealth -= b.damage;
+            g.destroy();
+        }
+    }
+}
+// rendering system
+for (e : entities) {window.draw(e.sprite, e.pos);}
 ```
+
+---
+
+#### implementation of entity manager
+
+- data should be independent of the logic
+- the factory should be managing the creation and deletion of the entities
+- also the user cannot create entities without going through the entity manager factory
+- `Entity Tags` are strings attached to the entities. eg tile, player, bullet, enemy etc.
 
 ```cpp
 
+#include <memory>
+class Entity {
+public:
+    std::shared_ptr<CTransform> cTransform;
+    std::shared_ptr<CName>      cName;
+    std::shared_ptr<CShape>     cShape;
+    std::shared_ptr<CBBox>      cBBox;
+    Entity () {}
+};
 ```
+
+- while you are iterating through the vector, you should not add or subtract to or from the vector, or the behaviour will be undefined. instead you can modify the vector
 
 ```cpp
 
