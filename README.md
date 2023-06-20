@@ -1,22 +1,29 @@
-
 ## 🌻Summer Vacation (June - July) 2023
+
 <!-- - []() -->
+<!-- - []() -->
+<!-- - [Makefile syntax]() -->
 <!-- - [Computer Networkng]() -->
 <!-- - [CS50's Introduction to Artificial Intelligence using Python]() -->
 <!-- - [Devops]() -->
 <!-- - [DWM Rice]() -->
 <!-- - [Python and Django]() -->
-<!-- - [Bash Scripting and Developer Tools]() -->
+
+- [The Missing Semester of Your CS Education](https://github.com/gautamsahil1947/Missing-Semester)
 - 🐍 [Python Script to Get Video Tiles from a YouTube Playlist](https://github.com/gautamsahil1947/gautamsahil1947/blob/main/Misc/youtubeScript.py)
-### 🏖 GameDevelopement using Modern C++ and SFML
+
+<!-- ### 🏖 GameDevelopement using Modern C++ and SFML -->
+<!---->
 <!-- - [Project 1]() -->
 <!-- 🌻🚗🏖🏕🏖👣 -->
-- 🕹️[Project 2 (shape-shooter)](https://github.com/gautamsahil1947/shape-shooter)
-<!-- - [Project 3]() -->
-<!-- - []() -->
-<!-- - []() -->
-<!-- - []() -->
-<!-- - [Golf Game]() -->
+<!---->
+<!-- - 🕹️[Project 2 (shape-shooter)](https://github.com/gautamsahil1947/shape-shooter) -->
+<!--   - [Project 3]() -->
+<!--   - []() -->
+<!--   - []() -->
+<!--   - []() -->
+<!--   - [Golf Game]() -->
+<!---->
 
 ## April 2023
 
