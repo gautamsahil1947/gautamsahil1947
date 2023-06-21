@@ -17,7 +17,7 @@
 <!-- - [Project 1]() -->
 <!-- 🌻🚗🏖🏕🏖👣 -->
 
-- 🕹️[Project 2 (shape-shooter)](https://github.com/gautamsahil1947/shape-shooter)
+<!-- - 🕹️[Project 2 (shape-shooter)](https://github.com/gautamsahil1947/shape-shooter) -->
   <!-- - [Project 3]() -->
   <!-- - []() -->
   <!-- - []() -->
