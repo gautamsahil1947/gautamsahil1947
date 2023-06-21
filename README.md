@@ -1,3 +1,4 @@
+
 ## 🌻Summer Vacation (June - July) 2023
 
 <!-- - []() -->
@@ -9,7 +10,8 @@
 <!-- - [DWM Rice]() -->
 <!-- - [Python and Django]() -->
 
-- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
+- [📝 My Blog website](https://gautamsahil1947.github.io)
+- [👣 The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 - 🐍 [Python Script to Get Video Tiles from a YouTube Playlist](https://github.com/gautamsahil1947/gautamsahil1947/blob/main/Misc/youtubeScript.py)
 
 ### 🏖 GameDevelopement using Modern C++ and SFML
