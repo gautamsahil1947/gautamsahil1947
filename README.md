@@ -3,7 +3,6 @@
 <!-- - []() -->
 <!-- - []() -->
 <!-- - [Makefile syntax]() -->
-<!-- - [Computer Networkng]() -->
 <!-- - [CS50's Introduction to Artificial Intelligence using Python]() -->
 <!-- - [Devops]() -->
 <!-- - [DWM Rice]() -->
