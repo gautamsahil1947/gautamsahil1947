@@ -9,7 +9,7 @@
 <!-- - [DWM Rice]() -->
 <!-- - [Python and Django]() -->
 
-- 📡 [Introduction To Networking by Charles R Serveran](https://github.com/gautamsahil1947/gautamsahil1947/Misc/introduction-to-networking.pdf)
+- 📡 [Introduction To Networking by Charles R Serveran](https://github.com/gautamsahil1947/gautamsahil1947/blob/main/Misc/introduction-to-networking.pdf)
 - [📝 My Blog website](https://gautamsahil1947.github.io)
 - [👣 The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 - 🐍 [Python Script to Get Video Tiles from a YouTube Playlist](https://github.com/gautamsahil1947/gautamsahil1947/blob/main/Misc/youtubeScript.py)
