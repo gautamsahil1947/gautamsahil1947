@@ -1,6 +1,6 @@
 ## 🌻Summer Vacation (June - July) 2023
 
-- [Configured GNU/Linux]
+- [Configured GNU/Linux](https://github.com/gautamsahil1947)
   - [Dwm](https://github.com/gautamsahil1947/dwm)
   - [St](https://github.com/gautamsahil1947/st)
   - [Dmenu](https://github.com/gautamsahil1947/dmenu)
@@ -14,8 +14,8 @@
 
 ### GameDevelopement using Modern C++ and SFML (deadline 2023-07-02)
 
-- [Project 1 -> Shape Spawner](https://github.com/gautamsahil1947/project1)
-- [Project 2 -> Geometry Wars (basic game engine implementation)](https://github.com/gautamsahil1947/geometry-wars)
+- [Project 1 - Shape Spawner](https://github.com/gautamsahil1947/project1)
+- [Project 2 - Geometry Wars (basic game engine implementation)](https://github.com/gautamsahil1947/geometry-wars)
     <!-- - [Project 3]() -->
     <!-- - []() -->
     <!-- - []() -->
