@@ -12,10 +12,9 @@
 - [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)
 - [Python Script to Get Video Tiles from a YouTube Playlist](https://github.com/gautamsahil1947/gautamsahil1947/blob/main/Misc/youtubeScript.py)
 
-### GameDevelopement using Modern C++ and SFML (deadline 2023-07-02)
-
-- [Project 1 - Shape Spawner](https://github.com/gautamsahil1947/project1)
-- [Project 2 - Geometry Wars (basic game engine implementation)](https://github.com/gautamsahil1947/geometry-wars)
+- [GameDevelopement using Modern C++ and SFML](https://www.youtube.com/playlist?list=PL_xRyXins848nDj2v-TJYahzvs-XW9sVV)
+  - [Project 1 - Shape Spawner](https://github.com/gautamsahil1947/project1)
+  - [Project 2 - Geometry Wars (basic game engine implementation)](https://github.com/gautamsahil1947/geometry-wars)
     <!-- - [Project 3]() -->
     <!-- - []() -->
     <!-- - []() -->
