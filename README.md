@@ -1,4 +1,4 @@
-## 🌻Summer Vacation (June - July) 2023
+## Summer Vacation (June - July) 2023
 
 - [Configured GNU/Linux](https://github.com/gautamsahil1947)
   - [Dwm](https://github.com/gautamsahil1947/dwm)
