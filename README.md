@@ -30,7 +30,6 @@
 
 - 🍦 💻 [Ice-Cream Parlour Management System](https://github.com/gautamsahil1947/icecream-parlour-management-system)
 - 🏏 💻 [IPL Schedule Maker](https://github.com/gautamsahil1947/ipl)
-
   <!-- - [Project 3]() -->
   <!-- - []() -->
   <!-- - []() -->
