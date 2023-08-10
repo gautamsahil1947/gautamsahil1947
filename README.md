@@ -9,11 +9,11 @@
   <!-- - [Ansible]() -->
   <!-- - [C++]() -->
 
-- 🐃 +🐧 [Configured GNU/Linux](https://github.com/gautamsahil1947)
-  - [Dwm](https://github.com/gautamsahil1947/dwm)
-  - [St](https://github.com/gautamsahil1947/st)
-  - [Dmenu](https://github.com/gautamsahil1947/dmenu)
-  - [Utils like ⛵ Newsboat, 🔔 Dunst, 🚀 Tmux, 🎥 Mpv ...](https://github.com/gautamsahil1947/utils)
+- ⚙️ [Configured GNU/Linux](https://github.com/gautamsahil1947)
+  - 🛡️ [Dwm](https://github.com/gautamsahil1947/dwm)
+  - 🛡️ [St](https://github.com/gautamsahil1947/st)
+  - 🛡️ [Dmenu](https://github.com/gautamsahil1947/dmenu)
+  - 🛡️ [Utils like ⛵ Newsboat, 🔔 Dunst, 🚀 Tmux, 🎥 Mpv ...](https://github.com/gautamsahil1947/utils)
 - ⬛ [Bash Scripting](https://github.com/gautamsahil1947/studies/tree/main/notes/01-bashScripting)
 - 🗒️ [Neovim Configuration](https://github.com/gautamsahil1947/nvim)
 - 🕸 [Introduction To Networking by Charles R Serveran](https://github.com/gautamsahil1947/gautamsahil1947/blob/main/Misc/introduction-to-networking.pdf)
