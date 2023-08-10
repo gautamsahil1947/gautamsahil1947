@@ -1,9 +1,13 @@
 ## 🌻 Summer Vacation (June - July) 2023
 
-<!-- - [Weechat IRC]() -->
-<!-- - [Proxmox]() -->
-<!-- - [Ansible]() -->
-<!-- - [C++]() -->
+<!-- - [Start working on My Game]() -->
+<!-- - [Minecraft Clone]() -->
+<!-- - [Decentralised Internet Using IRC and Me]() -->
+<!-- - [Research On IRC Technologies]() -->
+  <!-- - [Weechat IRC]() -->
+  <!-- - [Proxmox]() -->
+  <!-- - [Ansible]() -->
+  <!-- - [C++]() -->
 
 - 🐃 +🐧 [Configured GNU/Linux](https://github.com/gautamsahil1947)
   - [Dwm](https://github.com/gautamsahil1947/dwm)
@@ -26,21 +30,6 @@
 
 - 🍦 💻 [Ice-Cream Parlour Management System](https://github.com/gautamsahil1947/icecream-parlour-management-system)
 - 🏏 💻 [IPL Schedule Maker](https://github.com/gautamsahil1947/ipl)
-
-<!--
-🌻🚗🏖🏕🏖👣
-
-🌎 🌐 🌍
-
-📚
-
-🌐🕸🔗🖱🛜
-
-📡💻🌐
-
-📱📶⌚🎧🛡🔒⚡🔋
-
--->
 
   <!-- - [Project 3]() -->
   <!-- - []() -->
