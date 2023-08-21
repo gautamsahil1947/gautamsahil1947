@@ -1,13 +1,16 @@
 ## ⛄ Year 02 Sem 01 (August - December) 2023
 
 <!-- 🛠️ 🗡️ ⚔️ 💣 🪃 🏹 🛡️ 🪚 🔧 🪛 🔩 ⚙️ 🗜️ ⚖️ 🔗 ⛓️ 🪝 🧰 🧲 🪜 -->
-<!-- - 🔗 [Start working on my personal game]() -->
+<!-- - 💣 [Start working on my personal game]() -->
 <!-- - 🔗 [Decentralised audio video text communication]() -->
 <!-- - 🔗 [Weechat]() -->
 <!-- - 🪜 [Minecraft Clone]() -->
-<!-- - 🔗 [Hardcore Neovim]() -->
 <!-- - 🔗 [GSoC 2024]() -->
 <!-- - 🔗 [Contributing To Libreoffice]() -->
+<!-- - 🔗 [Neovim]() -->
+<!-- - 🔗 [Lua Language]() -->
+<!-- - 🔗 [Regexp]() -->
+<!-- - 🔗 [Learn-VIM]() -->
 
 - 🔗 [Learning C++](https://github.com/gautamsahil1947/cpp/tree/main)
 
