@@ -17,7 +17,7 @@
 
 ## 🛡️ Summer Vacation (June - July) 2023
 
-- ⚙️ [Configured GNU/Linux](https://github.com/gautamsahil1947)
+- 🔗 [Configured GNU/Linux](https://github.com/gautamsahil1947)
   - 🔗 [Dwm](https://github.com/gautamsahil1947/dwm)
   - 🔗 [St](https://github.com/gautamsahil1947/st)
   - 🔗 [Dmenu](https://github.com/gautamsahil1947/dmenu)
