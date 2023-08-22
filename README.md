@@ -1,27 +1,12 @@
 ## 🛡️ Year 02 Sem 01 (August - December) 2023
 
- <!-- 🛠️ 🗡️ ⚔️ 💣 🪃 🏹 🛡️ 🪚 🔧 🪛 🔩 ⚙️ 🗜️ ⚖️ 🔗 ⛓️ 🪝 🧰 🧲 🪜 -->
-
-<!-- - 💣 [Start working on my personal game]() -->
-<!-- - 🔗 [Decentralised audio video text communication]() -->
-<!-- - 🔗 [Weechat]() -->
-<!-- - 🪜 [Minecraft Clone]() -->
-<!-- - 🔗 [GSoC 2024]() -->
-<!-- - 🔗 [Contributing To Libreoffice]() -->
-<!-- - 🔗 [Neovim]() -->
-<!-- - 🔗 [Lua Language]() -->
-<!-- - 🔗 [Regexp]() -->
-<!-- - 🔗 [Learn-VIM]() -->
-
-- 🔗 [Learning C++](https://github.com/gautamsahil1947/cpp/tree/main)
-
 ## 🛡️ Summer Vacation (June - July) 2023
 
 - 🔗 [Configured GNU/Linux](https://github.com/gautamsahil1947)
   - 🔗 [Dwm](https://github.com/gautamsahil1947/dwm)
   - 🔗 [St](https://github.com/gautamsahil1947/st)
   - 🔗 [Dmenu](https://github.com/gautamsahil1947/dmenu)
-  - 🔗 [Utils (Newsboat, Dunst, Tmux, Mpv ...)](https://github.com/gautamsahil1947/utils)
+  - 🔗 [Utils (Newsboat, Dunst, Tmux, Mpv)](https://github.com/gautamsahil1947/utils)
 - 🔗 [Bash Scripting](https://github.com/gautamsahil1947/studies/tree/main/notes/01-bashScripting)
 - 🔗 [Neovim Configuration](https://github.com/gautamsahil1947/nvim)
 - 🔗 [Introduction To Networking by Charles R Serveran](https://github.com/gautamsahil1947/gautamsahil1947/blob/main/Misc/introduction-to-networking.pdf)
